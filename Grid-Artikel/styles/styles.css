@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  /*background: rgb(18,18,18)*/
+
+
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+#grad {
+/*  background: linear-gradient(red, yellow);*/
+}
+
+body {
+  line-height: 1.4;
+  background: linear-gradient(white, blue);
+}
+
+article > h1 {
+  font-family: arial;
+  font-size: 5em;
+  letter-spacing: -0.02em;
+  padding: 0.8em 0 0.3em 0;
+}
+
+article > h2 {
+  font-family: georgia;
+  font-weight: 400;
+  font-size: 2em;
+  padding: 0 0 1em 0;
+}
+
+p {
+  font-family: georgia;
+  font-weight: 400;
+  font-size: 1.6em;
+  line-height: 1.58;
+  color: rgba(0,0,0,.84);
+}
+
+p > span {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+
+section{
+  margin: 1em 0 1em 0;
+}
+article > .caption{
+  font-family: courier;
+  margin: 10px 10px;
+  font-size: 0.8em;
+  color: #555;
+}
+img{
+  width: 100%
+}
+
+figure{
+  margin: 30px 0 25px 0;
+}
+
+/* wir definieren das Grid */
+article{
+  display: grid;
+  /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+  grid-template-columns:
+  [full-start] minmax(0.5rem, 0.5fr)
+  [frame-start] minmax(0.5rem, 0.5fr)
+  [content-start] minmax(auto, 95ch)
+  [content-end] minmax(0.5rem, 0.5fr)
+  [frame-end] minmax(0.5rem, 0.5fr)
+  [full-end];
+}
+
+article > * {
+  grid-column: 3;
+}
+article > h1 {
+  grid-column: frame-start / content-end;
+}
+
+figure.full{
+  grid-column: full-start / full-end;
+}
+
+figure.content{
+  grid-column: content-start / content-end;
+}
+
+figure.frame{
+  grid-column: frame-start / frame-end;
+}
+
+figure.right-full{
+  grid-column: content-start / full-end;
+}
+
+article > .caption{
+  grid-column: content-end / span: 2;
+}
