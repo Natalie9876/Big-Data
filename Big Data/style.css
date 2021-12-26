@@ -6,10 +6,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
+*/
 body {
 	position: relative;
-	overflow: hidden;
+	/*overflow: hidden;*/
 	height: 100vh;
 line-height: 1.4;
 background:linear-gradient(rgba(253, 240, 207, 1), rgba(1, 196, 251, 1),
@@ -17,7 +17,7 @@ background:linear-gradient(rgba(253, 240, 207, 1), rgba(1, 196, 251, 1),
 }
 /* Große Überschrift OcrB, kleinere Überschrift VCR OSD Mono,
 Textschrift DM Sans*/
-
+/*
 }
 h1{
   font-family: OcrB;
@@ -25,9 +25,9 @@ h1{
   /*letter-spacing: -0.04em;
   padding: 0.3em 0 0.3em 0;
   line-height: 0.8;*/
-
 }
 
 h2{
   font-family:VCR OSD mono;
+  font-size: 75 px;
 }
