@@ -12,8 +12,6 @@ body {
 	overflow: hidden;
 	height: 100vh;
 line-height: 1.4;
-background:linear-gradient(rgba(253, 240, 207, 1), rgba(1, 196, 251, 1),
-  rgba(2, 75, 133, 1), rgba(18, 18, 18, 1));
 }
 /* Große Überschrift OcrB, kleinere Überschrift VCR OSD Mono,
 Textschrift DM Sans*/
