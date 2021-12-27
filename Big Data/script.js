@@ -1,5 +1,5 @@
-java script lalalal
+java script 
 function change(){
   let image = document.getElementById('win');
-  image.src = "assets/Bilder/MagischeMiesmuschelWin.png"
+  altert(image.src)
 }
