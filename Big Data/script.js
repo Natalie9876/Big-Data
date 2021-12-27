@@ -1,5 +1,10 @@
-java script 
+java script
+let image_tracker = 'normal'
 function change(){
   let image = document.getElementById('win');
-  altert(image.src)
+  if(image_tracker=='normal'){
+    image.src='assets/Bilder/MagischeMiesmuschelWin.png';
+  }else{
+    image.src='assets/Bilder/MagischeMiesmuschel.png'
+  }
 }
