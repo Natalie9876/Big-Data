@@ -54,3 +54,10 @@ p.eskalation{
   font-family: VCR OSD mono;
   font-size: 40px;
 }
+
+p.Computer{
+  font-family: ocr-b-std, monospace;
+  font-style: normal;
+  font-weight: 400;
+  color: #30CA9F;
+}
