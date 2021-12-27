@@ -29,14 +29,15 @@ h1{
 
 h2{
   font-family:VCR OSD mono;
-  font-size: 75 px;
+  font-size: 75px;
   color:white;
 }
 
 p{
   font-family: Dm sans;
   color: white;
-  font-size: 30 px;
+  font-size: 30px;
+  font-style: normal;
 }
 
 p.Beginning{
@@ -51,5 +52,5 @@ h3{
 
 p.eskalation{
   font-family: VCR OSD mono;
-  font-size: 40 px;
+  font-size: 40px;
 }
