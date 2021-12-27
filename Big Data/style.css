@@ -23,8 +23,8 @@ h1{
   /*letter-spacing: -0.04em;
   padding: 0.3em 0 0.3em 0;
   line-height: 0.8;*/
-    background-image: linear-gradient(rgba(253, 240, 207, 1), rgba(1, 196, 251, 1),
-      rgba(2, 75, 133, 1), rgba(18, 18, 18, 1));
+    background-image: linear-gradient(#FDF0CF, #01C4FB,
+      #024B85, #121212);
 }
 
 h2{
