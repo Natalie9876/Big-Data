@@ -34,6 +34,10 @@ h2{
 }
 
 p{
+  font-family: Dm sans;
+}
+
+p.Begin{
  font-family: ocr-b-std, monospace;
  font-style: normal;
  font-weight: 400;
