@@ -34,8 +34,9 @@ h2{
 }
 
 p{
- font-family: DM sans;
-  color: white;
+ font-family: ocr-b-std, monospace;
+ font-style: normal;
+ font-weight: 400;
 }
 
 h3{
