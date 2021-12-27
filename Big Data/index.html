@@ -6,7 +6,19 @@
     <title>BigData</title>
     <link rel="stylesheet" href="style.css">
       <link rel="stylesheet" href="https://use.typekit.net/lzs5lmo.css">
-    <script type= "text/javascript" src="script.js"></script>
+    <script type= "text/javascript">
+    let image_tracker = 'normal'
+    function change(){
+      let image = document.getElementById('win');
+      if(image_tracker=='normal'){
+        image.src='assets/Bilder/MagischeMiesmuschelWin.png';
+        image_tracker = 'perl';
+      }else{
+        image.src='assets/Bilder/MagischeMiesmuschel.png';
+        image_tracker = 'normal'
+      }
+    }
+    </script>
 </head>
 
 
