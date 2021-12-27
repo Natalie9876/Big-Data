@@ -19,6 +19,18 @@
         image_tracker = 'normal'
       }
     }
+
+    let image_tracker = 'normal2'
+    function change2(){
+      let image = document.getElementById('win2');
+      if(image_tracker=='normal2'){
+        image.src='assets/Bilder/MagischeMiesmuschelWin.png';
+        image_tracker = 'perl2';
+      }else{
+        image.src='assets/Bilder/MagischeMiesmuschel.png';
+        image_tracker = 'normal2'
+      }
+    }
     </script>
 
 </head>
@@ -74,7 +86,7 @@
   <section class="FrageUno">
     <h2>WAS IST EIN KEIN MERKMAL VON BIG DATA?</h2>
     <img src="assets/Bilder/MagischeMiesmuschel.png" id="win" onclick="change();">
-    <img src="assets/Bilder/MagischeMiesmuschel.png">
+    <img src="assets/Bilder/MagischeMiesmuschel.png" id="win2" onclick="change2();">
     <img src="assets/Bilder/MagischeMiesmuschel.png">
     <img src="assets/Bilder/MagischeMiesmuschel.png">
     <img src="assets/Bilder/MagischeMiesmuschel.png">
