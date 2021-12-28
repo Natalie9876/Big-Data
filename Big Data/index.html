@@ -31,6 +31,18 @@
         picture_tracker = 'normal'
       }
     }
+
+    let pic_tracker = 'normal'
+    function changing(){
+      let pic = document.getElementById('fail');
+      if(pic_tracker=='normal'){
+        pic.src='assets/Bilder/MagischeMiesmuschelFail.png';
+        pic_tracker = 'noperl';
+      }else{
+        pic.src='assets/Bilder/MagischeMiesmuschel.png';
+        pic_tracker = 'normal'
+      }
+    }
     </script>
 
 </head>
@@ -123,7 +135,7 @@
     </div>
 
     <div class="MiesmuschelDrei">
-     <img src="assets/Bilder/MagischeMiesmuschel.png">
+     <img src="assets/Bilder/MagischeMiesmuschel.png" id="fail" onclick="changing();">
      <p class="eskalation">INFORMATIONSQUALITÄT</p>
      <p><b>Bingo!</b></p>
     </div>
