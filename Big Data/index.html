@@ -55,6 +55,19 @@
         miesmuschel_tracker = 'normal'
       }
     }
+
+    let muschel_tracker = 'normal'
+    function switching(){
+      let muschel = document.getElementById('successful');
+      if(muschel_tracker=='normal'){
+        muschel.src='assets/Bilder/MagischeMiesmuschelWin.png';
+        muschel_tracker = 'perl';
+      }else{
+        muschel.src='assets/Bilder/MagischeMiesmuschel.png';
+        muschel_tracker = 'normal'
+      }
+    }
+
     </script>
 
 </head>
@@ -162,7 +175,7 @@
     </div>
 
     <div class="AntwortFuenf">
-     <img src="assets/Bilder/MagischeMiesmuschel.png">
+     <img src="assets/Bilder/MagischeMiesmuschel.png"id="successful" onclick="switching();">
      <p class="eskalation">DATENVIELFALT(VARIETY)</p>
      <p><b>Fremddaten (Web etc.)</b> <br>
        Firmendaten<br>
