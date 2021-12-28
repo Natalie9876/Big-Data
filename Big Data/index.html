@@ -93,15 +93,15 @@
       }
     }
 
-    let shellState_tracker = 'normal'
+    let State_tracker = 'normal'
     function flipper(){
-      let shellState = document.getElementById('incorrect');
-      if(shellState_tracker=='normal'){
-        shellState.src='assets/Bilder/ShellFail.png';
-        shellState_tracker = 'noperl';
+      let State = document.getElementById('correct');
+      if(State_tracker=='normal'){
+        State.src='assets/Bilder/ShellWin.png';
+        State_tracker = 'perl';
       }else{
-        shellState.src='assets/Bilder/Shell.png';
-        shellState_tracker = 'normal'
+        State.src='assets/Bilder/Shell.png';
+        State_tracker = 'normal'
       }
     }
     </script>
