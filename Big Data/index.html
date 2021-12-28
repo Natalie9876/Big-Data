@@ -19,6 +19,18 @@
         image_tracker = 'normal'
       }
     }
+
+    let picture_tracker = 'normal'
+    function exchange(){
+      let picture = document.getElementById('victory');
+      if(picture_tracker=='normal'){
+        picture.src='assets/Bilder/MagischeMiesmuschelWin.png';
+        picture_tracker = 'perl';
+      }else{
+        picture.src='assets/Bilder/MagischeMiesmuschel.png';
+        picture_tracker = 'normal'
+      }
+    }
     </script>
 
 </head>
@@ -102,7 +114,7 @@
     </div>
 
     <div class="MiesmuschelZwei">
-     <img src="assets/Bilder/MagischeMiesmuschel.png" >
+     <img src="assets/Bilder/MagischeMiesmuschel.png"id="victory" onclick="exchange();">
      <p class="eskalation">ANALYTICS</p>
      <p><b>Erkennen von Zusammenhängen</b> <br>
        Bedeutungen, Mustern, Vorhersagemodelle, <br>
@@ -195,7 +207,7 @@
       So sagt allein die Wahl des Restaurants viel über ein mögliches Budget oder Gesundheitsbewusstsein aus.  Das Ziel der Werbeindustrie besteht dabei neben der Ermittlung von Produkten,
       für die der User eventuell Interesse haben könnte, darin zu bestimmen ob diese ,,In-Market“ sind, also ob zum jetzigen Zeitpunkt Interesse herrscht oder man unterbewusst einen Kauf antizipiert.
       Der Störfaktor dieser Gleichung stellt dabei stets die Willkür des Menschen dar, die Kauf- und Browse-Entscheidungen durchzieht und somit die Genauigkeit erschwert. Da diese Vorgänge
-      jedoch bei einer enormen Menge an User angewandt werden reiche es nur 10% besser als zufällig zu tippen, um eine substanzielle Umsatzsteigerung für ein Unternehmen zu generieren. 
+      jedoch bei einer enormen Menge an User angewandt werden reiche es nur 10% besser als zufällig zu tippen, um eine substanzielle Umsatzsteigerung für ein Unternehmen zu generieren.
   </p>
     <img src="assets/Gifs/Items/ItemFinance.gif">
     <img src="assets/Gifs/Items/ItemShopping.gif">
