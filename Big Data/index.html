@@ -43,6 +43,18 @@
         pic_tracker = 'normal'
       }
     }
+
+    let miesmuschel_tracker = 'normal'
+    function exchanging(){
+      let miesmuschel = document.getElementById('success');
+      if(miesmuschel_tracker=='normal'){
+        miesmuschel.src='assets/Bilder/MagischeMiesmuschelWin.png';
+        miesmuschel_tracker = 'perl';
+      }else{
+        miesmuschel.src='assets/Bilder/MagischeMiesmuschel.png';
+        miesmuschel_tracker = 'normal'
+      }
+    }
     </script>
 
 </head>
@@ -141,7 +153,7 @@
     </div>
 
     <div class="AntwortVier">
-     <img src="assets/Bilder/MagischeMiesmuschel.png"id="sucess" onclick="exchanging();">
+     <img src="assets/Bilder/MagischeMiesmuschel.png"id="success" onclick="exchanging();">
      <p class="eskalation">GESCHWINDIGKEIT (VELOCITY)</p>
      <p><b>Datengenerierung in hoher Geschwindigkeit</b> <br>
        Übertragung der konstant erzeugten Daten <br>
