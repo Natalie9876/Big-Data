@@ -70,14 +70,38 @@
     }
 
     let shell_tracker = 'normal'
-    function fli(){
-      let shell = document.getElementById('not');
+    function flip(){
+      let shell = document.getElementById('notRight');
       if(shell_tracker=='normal'){
         shell.src='assets/Bilder/ShellFail.png';
         shell_tracker = 'noperl';
       }else{
         shell.src='assets/Bilder/Shell.png';
         shell_tracker = 'normal'
+      }
+
+    }
+    let shellState_tracker = 'normal'
+    function overturn(){
+      let shellState = document.getElementById('incorrect');
+      if(shellState_tracker=='normal'){
+        shellState.src='assets/Bilder/ShellFail.png';
+        shellState_tracker = 'noperl';
+      }else{
+        shellState.src='assets/Bilder/Shell.png';
+        shellState_tracker = 'normal'
+      }
+    }
+
+    let shellState_tracker = 'normal'
+    function flipper(){
+      let shellState = document.getElementById('incorrect');
+      if(shellState_tracker=='normal'){
+        shellState.src='assets/Bilder/ShellFail.png';
+        shellState_tracker = 'noperl';
+      }else{
+        shellState.src='assets/Bilder/Shell.png';
+        shellState_tracker = 'normal'
       }
     }
     </script>
@@ -282,18 +306,18 @@
     <h2>WIE NENNT MAN DIE DATENBASIERTE VERBRECHENSBEKÄMPFUNG
       DER POLIZEI?<h2>
 
-   <div class="ShellEins"id="not" onclick="fli();">
-    <img src="assets/Bilder/Shell.png">
+   <div class="ShellEins">
+    <img src="assets/Bilder/Shell.png" id="notRight" onclick="flip();">
     <p class="eskalation">ANTICIPATIVE POLICE WORK</p>
    </div>
 
-   <div class="ShellZwei"id="incorrect" onclick="flipping();">
-    <img src="assets/Bilder/Shell.png">
+   <div class="ShellZwei">
+    <img src="assets/Bilder/Shell.png"id="incorrect" onclick="overturn();">
     <p class="eskalation">CRITERIA-BASED CRIME PREVENTION</p>
    </div>
 
-   <div class="ShellDrei"id="correct" onclick="flipper();">
-    <img src="assets/Bilder/Shell.png">
+   <div class="ShellDrei">
+    <img src="assets/Bilder/Shell.png"id="correct" onclick="flipper();">
     <p class="eskalation">PREDICTIVE POLICING</p>
   </div>
 
