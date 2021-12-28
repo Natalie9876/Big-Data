@@ -8,6 +8,7 @@
       <link rel="stylesheet" href="https://use.typekit.net/lzs5lmo.css">
 
     <script type= "text/javascript">
+
     let image_tracker = 'normal'
     function change(){
       let image = document.getElementById('win');
@@ -68,6 +69,17 @@
       }
     }
 
+    let shell_tracker = 'normal'
+    function flip(){
+      let shell = document.getElementById('notRight');
+      if(shell_tracker=='normal'){
+        shell.src='assets/Bilder/ShellFail.png';
+        shell_tracker = 'noperl';
+      }else{
+        shell.src='assets/Bilder/Shell.png';
+        shell_tracker = 'normal'
+      }
+    }
     </script>
 
 </head>
@@ -270,7 +282,7 @@
     <h2>WIE NENNT MAN DIE DATENBASIERTE VERBRECHENSBEKÄMPFUNG
       DER POLIZEI?<h2>
 
-   <div class="ShellEins"id="notright" onclick="flip();">
+   <div class="ShellEins"id="notRight" onclick="flip();">
     <img src="assets/Bilder/Shell.png">
     <p class="eskalation">ANTICIPATIVE POLICE WORK</p>
    </div>
