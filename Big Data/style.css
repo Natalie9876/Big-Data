@@ -61,3 +61,8 @@ p.Computer{
   font-weight: 400;
   color: #30CA9F;
 }
+
+.FrageDue{
+  display: flex;
+  justify-content: center;
+}
