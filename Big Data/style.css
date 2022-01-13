@@ -133,3 +133,7 @@ p.Fenster{
 .Stichpunkt{
   color: #F9EB05;
 }
+.PasswortBitte{
+  font-family: VCR OSD mono;
+  font-size: 50px;
+}
