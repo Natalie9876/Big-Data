@@ -1,0 +1,10 @@
+#box{
+    position: absolute;
+    width:13%;
+    height: 17%;
+
+    left:120px;
+    top:120px;
+    color:red;
+    background-image: url("diviwalk.gif");
+}
