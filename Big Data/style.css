@@ -73,6 +73,12 @@ background-size: fit;*//
   height:381px;
 }
 
+p.welcome{
+  font-family: VCR OSD mono;
+  font-size: 50px;
+  color: black;
+}
+
 p{
   font-family: Dm sans;
   color: white;
@@ -121,8 +127,8 @@ p.Fenster{
 }
 
 .board{
-  width:1697px;
-  height:3122px;
+  width:1490px;
+  height:2741px;
 }
 
 .octo{
@@ -147,8 +153,8 @@ p.Fenster{
 }
 
 .Computer{
-  width:1740px;
-  height: 2336px;
+  width:1571px;
+  height: 2109px;
 }
 
 .Stichpunkt{
@@ -157,4 +163,9 @@ p.Fenster{
 .PasswortBitte{
   font-family: VCR OSD mono;
   font-size: 50px;
+}
+
+.bubble{
+  width:497px;
+  height:461px;
 }
