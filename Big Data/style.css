@@ -34,6 +34,10 @@ h2{
   color:white;
 }
 
+.startscreen{
+  max-width: 100%;
+  height: auto;
+}
 
 p{
   font-family: Dm sans;
