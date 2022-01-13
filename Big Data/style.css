@@ -40,7 +40,6 @@ height: 1657px;
 background-image: url('assets/Bilder/banner_provi.png');
 background-repeat: no-repeat;
 background-size: contain;
-
 }
 
 .krake{
@@ -48,11 +47,16 @@ background-size: contain;
   height:1235px;
 }
 
+.divi{
+  width:249px;
+  height:381px;
+}
+
 p{
   font-family: Dm sans;
   color: white;
   font-size: 30px;
-  font-style: normal;
+  font-style: regular;
 }
 
 p.Beginning{
@@ -63,6 +67,7 @@ p.Beginning{
 
 h3{
   font-family: VCR OSD mono;
+  font-size: 33px;
 }
 
 p.eskalation{
