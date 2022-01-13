@@ -121,6 +121,11 @@ p.Fenster{
 }
 
 .window{
-  width:1183;
-  height:392;
+  width:1183px;
+  height:392px;
+}
+
+.Computer{
+  width:1740px;
+  height: 2336px;
 }
