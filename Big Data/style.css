@@ -1,17 +1,19 @@
-/*{
+/**{
   margin: 0;
   padding: 0;/
   height: 100%;
   text-rendering: optimizeLegibility;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  /*background-repeat: no-repeat;
+  background-attachment: fixed;*/
 }
 */
 body {
 	/*position: relative; *
 	overflow: hidden;
 	height: 100vh;
-line-height: 1.4;
+line-height: 1.4;*/
+background-image: linear-gradient(#FDF0CF, #01C4FB,
+  #024B85, #121212);
 }
 /* Große Überschrift OcrB, kleinere Überschrift VCR OSD Mono,
 Textschrift DM Sans*/
@@ -23,8 +25,7 @@ h1{
   /*letter-spacing: -0.04em;
   padding: 0.3em 0 0.3em 0;
   line-height: 0.8;*/
-    background-image: linear-gradient(#FDF0CF, #01C4FB,
-      #024B85, #121212);
+
 }
 
 h2{
@@ -32,6 +33,7 @@ h2{
   font-size: 75px;
   color:white;
 }
+
 
 p{
   font-family: Dm sans;
