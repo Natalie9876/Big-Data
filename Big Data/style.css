@@ -82,6 +82,12 @@ p.Computer{
   color: #30CA9F;
 }
 
+p.Fenster{
+  font-family: VCR OSD mono;
+
+
+}
+
 .passwort{
   width:1400px;
   height:1400px;
