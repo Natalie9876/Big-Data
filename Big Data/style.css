@@ -35,8 +35,8 @@ h2{
 }
 
 .startscreen{
-  max-width: 100%;
-  height: auto;
+  background: url('assets/Bilder/banner_provi.png') no-repeat center fixed;
+  background-size: cover;
 }
 
 p{
