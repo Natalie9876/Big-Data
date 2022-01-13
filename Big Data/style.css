@@ -35,11 +35,8 @@ h2{
 }
 
 .banner{
-  width: 100%;
+  width: 1657px;
   height: 1920px;
-  background-image: url('assets/Bilder/banner_provi.png');
-  background-repeat: no-repeat;
-  background-size: contain;
 
 }
 
