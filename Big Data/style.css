@@ -12,7 +12,6 @@
   background-attachment: fixed;*/
 }
 
-
 body {
 	/*position: relative; *
 	overflow: hidden;
@@ -44,8 +43,22 @@ height: 500px;
 }
 
 h1{
+  text-align: center;
+  padding-top: 35px;
 font-family:VCR OSD mono;
 position: center;
+color: #a59aff;
+font-size: 60px;
+text-shadow: 4px 4px black;
+}
+
+h4{
+  text-align: center;
+  padding-top: 5px;
+  font-family: VCR OSD mono;
+  color: #bcf147;
+  text-shadow: 2px 2px black;
+  font-size: 29px;
 }
 
 h2{
@@ -54,6 +67,17 @@ h2{
   color:white;
 }
 
+h3{
+  font-family: VCR OSD mono;
+  font-size: 33px;
+  text-align: left;
+
+}
+.start{
+  image: url('assets/Bilder/button.png');
+  width: 30px;
+  text-align: center;
+}
 .banner{
 //*width: 100%;
 height: 1657px;*//
@@ -92,10 +116,6 @@ p.Beginning{
  font-weight: 400;
 }
 
-h3{
-  font-family: VCR OSD mono;
-  font-size: 33px;
-}
 
 h2{
   font-family:VCR OSD mono;
