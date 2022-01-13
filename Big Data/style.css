@@ -137,3 +137,8 @@ p.Fenster{
   font-family: VCR OSD mono;
   font-size: 50px;
 }
+
+.Passwortbubble{
+  width:497;
+  height:461;
+}
