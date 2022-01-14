@@ -83,7 +83,7 @@ padding-top: 1em;
 font-family:VCR OSD mono;
 position: center;
 color: #a59aff;
-font-size: 60px;
+font-size: 20vh;
 text-shadow: 4px 4px black;
 }
 
@@ -93,7 +93,7 @@ h4{
   font-family: VCR OSD mono;
   color: #bcf147;
   text-shadow: 2px 2px black;
-  font-size: 29px;
+  font-size: 2rem;
 }
 
 h2{
