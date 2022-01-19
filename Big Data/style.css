@@ -271,3 +271,9 @@ p.Fenster{
   align-items: flex-start;
   margin: 20px;
 }
+
+.Datentext{
+  display: flex;
+  align-items: flex-start;
+  margin: 90px;
+}
