@@ -295,4 +295,5 @@ p.Fenster{
   align-items: flex-start;
   margin: 50px;
   margin-top: 0;
+  gap:50px;
 }
