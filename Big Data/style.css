@@ -278,14 +278,14 @@ p.Fenster{
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  margin: 60px;
+  margin: 80px;
 }
 
 
 .shellline{
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
   margin: 20px;
 }
 
@@ -293,7 +293,6 @@ p.Fenster{
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin: 50px;
   margin-top: 0;
   gap:50px;
 }
@@ -322,5 +321,9 @@ p.Fenster{
 }
 
 .AntwortEins{
-  margin-left: 540px
+  margin-left: 570px
+}
+
+.Werbungtext{
+  margin-left: 270px
 }
