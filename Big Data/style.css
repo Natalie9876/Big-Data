@@ -225,6 +225,8 @@ p.Fenster{
   height:461px;
 }
 
-.FrageDue{
-  display: grid;
+.Antwort{
+  display: flex;
+  justify-content: space-evenly;
+  
 }
