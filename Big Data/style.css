@@ -298,7 +298,18 @@ p.Fenster{
   gap:50px;
 }
 
-.AntwortEins{
+.AntwortVier{
   display: flex
+  flex-direction:column;
   justify-content: center;
+  align-items: flex-start;
+  margin-right: 35px;
+}
+
+.AntwortFuenf{
+  display: flex
+  flex-direction:column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 35px;
 }
