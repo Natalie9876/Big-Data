@@ -224,3 +224,7 @@ p.Fenster{
   width:497px;
   height:461px;
 }
+
+.FrageDue{
+  display: grid;
+}
