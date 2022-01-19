@@ -204,19 +204,19 @@ p.Fenster{
 }
 
 .octo{
-  width:1399px;
-  height:1049px;
+  width:646px;
+  height:844x;
 }
 
 .BubbleEins{
-  width:1444px;
-  height:1341px;
+  width:1100px;
+
 }
 
 
 .BubbleZwei{
-  width:1059px;
-  height:993px;
+  width: 900px;
+
 }
 
 .window{
@@ -258,4 +258,16 @@ p.Fenster{
   font-size: 50px;
   color:#A169DF;
   text-align: center;
+}
+
+.Bubbleocto1{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.Bubbleocto2{
+  display: flex;
+  align-items: flex-start;
+  margin: 20px;
 }
