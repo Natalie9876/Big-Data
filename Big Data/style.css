@@ -144,6 +144,7 @@ p{
   color: white;
   font-size: 30px;
   font-style: regular;
+  line-height: 30pt;
 }
 
 p.Beginning{
@@ -151,7 +152,6 @@ p.Beginning{
  font-style: normal;
  font-weight: 400;
 }
-
 
 h2{
   font-family:VCR OSD mono;
@@ -169,6 +169,7 @@ p.Computer{
   font-style: normal;
   font-weight: 400;
   color: #30CA9F;
+  line-height: 30pt;
 }
 
 p.Fenster{
@@ -229,5 +230,13 @@ p.Fenster{
 .Antwort{
   display: flex;
   justify-content: space-evenly;
+
+}
+
+.target{
+  line-height: 50pt;
+}
+
+p{
 
 }
