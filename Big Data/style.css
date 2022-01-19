@@ -93,10 +93,10 @@ overflow: hidden;
   margin: 100px;
 }
 
-.Advertising p{
-  margin: 100px;
-}
+.Werbungtext {
+  margin-left: 100px;
 
+}
 h1{
 text-align: center;
 padding-top: 1em;
@@ -262,6 +262,7 @@ p.Fenster{
 
 .Bubbleocto1{
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   margin: 20px;
 }
@@ -269,11 +270,13 @@ p.Fenster{
 .Bubbleocto2{
   display: flex;
   align-items: flex-start;
+  justify-content: space-evenly;
   margin: 20px;
 }
 
 .Datentext{
   display: flex;
   align-items: flex-start;
-  margin: 90px;
+  justify-content: space-between;
+  margin: 70px;
 }
