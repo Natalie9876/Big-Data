@@ -297,3 +297,8 @@ p.Fenster{
   margin-top: 0;
   gap:50px;
 }
+
+.AntwortEins{
+  display: flex
+  justify-content: center;
+}
