@@ -100,6 +100,7 @@ h2{
   font-family:VCR OSD mono;
   font-size: 75px;
   color:white;
+  text-align: center;
 }
 
 h3{
@@ -228,5 +229,5 @@ p.Fenster{
 .Antwort{
   display: flex;
   justify-content: space-evenly;
-  
+
 }
