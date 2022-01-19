@@ -77,6 +77,22 @@ overflow: hidden;
 .auto:hover{
   font-size: 25px;
 }
+
+.Cookies{
+  margin: 30px;
+  padding: 0;
+  background-image: url('assets/Bilder/Board.png');
+  position: center;
+  height: 2741px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.Cookies p{
+  margin: 100px;
+}
+
 h1{
 text-align: center;
 padding-top: 1em;
@@ -153,11 +169,6 @@ p.Beginning{
  font-weight: 400;
 }
 
-h2{
-  font-family:VCR OSD mono;
-  font-size: 75px;
-  color:white;
-}
 
 p.eskalation{
   font-family: VCR OSD mono;
@@ -238,6 +249,9 @@ p.Fenster{
   line-height: 50pt;
 }
 
-p{
-
+.Cookiegefahr{
+  font-family: ocr-b-std, monospace;
+  font-size: 50px;
+  color:#A169DF;
+  text-align: center;
 }
