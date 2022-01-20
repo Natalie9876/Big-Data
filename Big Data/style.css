@@ -321,7 +321,7 @@ p.Fenster{
 }
 
 .AntwortEins{
-  margin-left: 570px
+  margin-left: 590px
 }
 
 .Werbungtext{
@@ -366,4 +366,17 @@ p.Fenster{
 
 .öl{
   margin: 500px
+}
+
+.BoardFont{
+  font-family: Dm sans;
+  color: white;
+  font-size: 30px;
+  font-style: regular;
+  line-height: 30pt;
+  text-align:left;
+  padding-top: 250px;
+  font-weight:lighter;
+  padding-left:60px;
+  padding-right:60px;
 }
