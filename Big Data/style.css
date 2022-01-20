@@ -451,3 +451,27 @@ p.Fenster{
 .WerbungIcon2{
   padding-left:1200px;
 }
+
+
+.FinitoFont{
+  text-align: left;
+  font-size: 40px;
+}
+
+.FinitoFont2{
+  text-align: right;
+  font-size: 40px;
+}
+
+.Schlussfont2{
+  text-align:right;
+  line-height: 45pt;
+}
+
+.Schlussfont{
+  line-height: 45pt;
+}
+
+.Weiterfuerend{
+  padding: 180px;
+}
