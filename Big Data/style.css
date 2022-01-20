@@ -500,3 +500,7 @@ p.Fenster{
   font-style: normal;
   font-weight: 400;
 }
+
+.Fisch{
+  position: relative;
+}
