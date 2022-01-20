@@ -83,7 +83,7 @@ overflow: hidden;
   padding: 0;
   background-image: url('assets/Bilder/Board.png');
   position: center;
-  height: 2700px;
+  height: 3000px;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -295,6 +295,7 @@ p.Fenster{
   align-items: flex-start;
   margin-top: 0;
   gap:50px;
+  padding-left: 90px;
 }
 
 .AntwortVier{
@@ -320,13 +321,13 @@ p.Fenster{
 
 }
 
-.AntwortEins{
+/*.AntwortEins{
   margin-left: 590px
 }
 
-.Werbungtext{
+/*.Werbungtext{
   margin-left: 270px
-}
+}*/
 
 #policing{
   font-family: Dm sans;
@@ -379,4 +380,30 @@ p.Fenster{
   font-weight:lighter;
   padding-left:60px;
   padding-right:60px;
+}
+
+.Werbungtext{
+  display: grid;
+  flex-direction:column;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.AntwortEins{
+  display: grid;
+  flex-direction:column;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.BoardFont2{
+  font-family: Dm sans;
+  color: white;
+  font-size: 30px;
+  font-style: regular;
+  line-height: 30pt;
+  text-align:left;
+  font-weight:lighter;
+  padding-left:60px;
+  padding-right:25px;
 }
