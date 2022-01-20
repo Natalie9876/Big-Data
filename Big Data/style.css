@@ -178,12 +178,38 @@ h3{
 }
 p{
   font-family: Dm sans;
-  color: white;
+  color: white;#
+  text-align: center;
   font-size: 30px;
   font-style: regular;
   line-height: 30pt;
 }
 
+.contain{
+  width: 80%;
+  height: auto;
+  padding-top: 100px;
+  padding-left: 200px;
+}
+
+
+p1{
+  font-family: ocr-b-std, monospace;
+  color: black;
+  text-align: justify;
+  padding-left: 170px;
+  font-size: 25px;
+  line-height: 25pt;
+
+}
+p2{
+  font-family:  ocr-b-std, monospace;
+  color:#FFFF00;
+  text-align: center;
+  font-size: 30px;
+  font-style: regular;
+  line-height: 30pt;
+}
 p.Beginning{
  font-family: ocr-b-std, monospace;
  font-style: normal;
@@ -203,10 +229,16 @@ p.Computer{
   color: #30CA9F;
   line-height: 30pt;
 }
+/*.PopUp{
+  display: flex;
+}*/
 
 p.Fenster{
   font-family: VCR OSD mono;
   font-size: 37px;
+  position: absolute;
+  left: 70px;
+  padding-top: 10px;
 
 }
 
@@ -237,8 +269,10 @@ p.Fenster{
 }
 
 .window{
+  padding-left: 50px;
   width:1183px;
   height:392px;
+
 }
 
 .Computer{
@@ -316,7 +350,7 @@ p.Fenster{
 }
 
 .AntwortVier{
-  display: flex
+  display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: flex-start;
@@ -324,7 +358,7 @@ p.Fenster{
 }
 
 .AntwortFuenf{
-  display: flex
+  display: flex;
   flex-direction:column;
   justify-content: center;
   align-items: flex-start;
