@@ -83,7 +83,7 @@ overflow: hidden;
   padding: 0;
   background-image: url('assets/Bilder/Board.png');
   position: center;
-  height: 3000px;
+  height: 2500px;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -374,7 +374,7 @@ p.Fenster{
   font-style: regular;
   line-height: 30pt;
   text-align:left;
-  padding-top: 250px;
+  padding-top: 400px;
   font-weight:lighter;
   padding-left:60px;
   padding-right:60px;
@@ -426,10 +426,10 @@ p.Fenster{
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  margin-left:410px;
+  margin-left:420px;
   margin-right: 240px;
 }
 
 .Cookies{
-  padding-top:500px;
+  padding-top:400px;
 }
