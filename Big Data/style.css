@@ -455,6 +455,18 @@ p.Fenster{
   padding-left:1200px;
 }
 
+.eskalationEnde1{
+  font-family: VCR OSD mono;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 300px;
+}
+
+.eskalationEnde2{
+  font-family: VCR OSD mono;
+  font-size: 40px;
+  margin: 100px;
+}
 
 .FinitoFont{
   text-align: left;
