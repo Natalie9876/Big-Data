@@ -365,9 +365,7 @@ p.Fenster{
   margin-left:500px;
 }
 
-.öl{
-  margin: 500px
-}
+
 
 .BoardFont{
   font-family: Dm sans;
@@ -406,4 +404,14 @@ p.Fenster{
   font-weight:lighter;
   padding-left:60px;
   padding-right:25px;
+}
+
+.DatenFont{
+  color:#F3B13D;
+  font-size:120px;
+  text-align: left;
+}
+
+.sindDasNeueFont{
+  font-size:100px;
 }
