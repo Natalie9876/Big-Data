@@ -419,6 +419,7 @@ p.Fenster{
 .ÖlFont{
   font-size:200px;
   text-align: right;
+  margin-right: 410px;
 }
 
 .CookieAnfang{
@@ -427,4 +428,8 @@ p.Fenster{
   align-items: baseline;
   margin-left:410px;
   margin-right: 240px;
+}
+
+.Cookies{
+  padding-top:500px;
 }
