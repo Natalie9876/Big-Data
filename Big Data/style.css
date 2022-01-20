@@ -327,3 +327,39 @@ p.Fenster{
 .Werbungtext{
   margin-left: 270px
 }
+
+#policing{
+  font-family: Dm sans;
+  color: white;
+  font-size: 30px;
+  font-style: regular;
+  line-height: 30pt;
+  text-align:left;
+  margin: 120px;
+  font-weight:lighter;
+}
+
+.Datenpacket1{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin:150px;
+}
+.Datenpacket2{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin:180px;
+}
+.Datenpacket3{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin:140px;
+}
+.Datenpacket4{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin:0px;
+}
