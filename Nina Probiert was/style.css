@@ -1,7 +1,9 @@
 *{
 
+
 }
-.grid-container {
-  display: grid;
-  grid-template: 150px / auto auto auto;
+
+canvas{
+width: 100% 
+
 }

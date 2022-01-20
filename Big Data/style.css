@@ -111,6 +111,7 @@ overflow: hidden;
   margin-left: 100px;
 
 }
+
 h1{
 text-align: center;
 padding-top: 1em;
@@ -148,14 +149,7 @@ h3{
   width: 30px;
   text-align: center;
 }
-.banner{
-//*width: 100%;
-height: 1657px;*//
-width: fit-content;
-background-image: url('assets/Bilder/banner_ohne.png');
-//*background-repeat: no-repeat;
-background-size: fit;*//
-}
+
 
 .krake{
   width:1235px;
@@ -167,12 +161,21 @@ background-size: fit;*//
   height:381px;
 }
 
-p.welcome{
+.welcome{
   font-family: VCR OSD mono;
   font-size: 50px;
+  text-align: center;
   color: black;
+  position: relative;
+  text-align: center;
 }
-
+.wel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 30px;
+}
 p{
   font-family: Dm sans;
   color: white;

@@ -1,0 +1,46 @@
+body{
+    height:200%;
+}
+.diver{
+    position: absolute;
+    width: 13%;
+    height:20%;
+
+    left:120px;
+    top:120px;
+    color:red;
+    background-image: url(Dwalk.gif);
+    background-size: cover;
+}
+.left {
+    background-image: url(DR.gif);
+    background-size: cover;
+    height: 10%;
+    width: 17%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+.right {
+    background-image: url(DR.gif);
+    background-size: cover;
+    height: 10%;
+    width: 17%;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+.up {
+    background-image: url(DL.gif);
+    background-size: cover;
+    height: 10%;
+    width: 17%;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+.down {
+    background-image: url(DL.gif);
+    background-size: cover;
+    height: 10%;
+    width: 17%;
+    -webkit-transform: rotate(-90deg);
+    transform:rotate(-90deg);
+}

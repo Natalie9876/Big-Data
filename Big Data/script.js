@@ -1,4 +1,75 @@
 
+var up = false,
+    right = false,
+    down = false,
+    left = false,
+    x = window.innerWidth / 2 - 130 / 2,
+    y = window.innerHeight / 2 - 130 / 2
+
+var div = document.getElementById('diver');
+document.addEventListener('keydown', press)
+function press(e) {
+    if (e.keyCode === 38 /* up */ || e.keyCode === 87 /* w */ || e.keyCode === 90 /* z */) {
+        up = true
+        div.classList.add('up');
+    }
+    if (e.keyCode === 39 /* right */ || e.keyCode === 68 /* d */) {
+        right = true
+        div.classList.add('right');
+    }
+    if (e.keyCode === 40 /* down */ || e.keyCode === 83 /* s */) {
+        down = true
+        div.classList.add('down');
+    }
+    if (e.keyCode === 37 /* left */ || e.keyCode === 65 /* a */ || e.keyCode === 81 /* q */) {
+        left = true
+        div.classList.add('left');
+    }
+}
+document.addEventListener('keyup', release)
+function release(e) {
+    if (e.keyCode === 38 /* up */ || e.keyCode === 87 /* w */ || e.keyCode === 90 /* z */) {
+        up = false
+        div.classList.remove('up');
+    }
+    if (e.keyCode === 39 /* right */ || e.keyCode === 68 /* d */) {
+        right = false
+        div.classList.remove('right');
+    }
+    if (e.keyCode === 40 /* down */ || e.keyCode === 83 /* s */) {
+        down = false
+        div.classList.remove('down');
+    }
+    if (e.keyCode === 37 /* left */ || e.keyCode === 65 /* a */ || e.keyCode === 81 /* q */) {
+        left = false
+        div.classList.remove('left');
+    }
+}
+    function gameLoop() {
+
+    var divinfo = div.getBoundingClientRect();
+
+    if (up && div.offsetTop > 0 )  {
+        y = y - 10
+    }
+    if (right && div.offsetLeft <  window.innerWidth - divinfo.width) {
+        x = x + 10
+    }
+    if (down && div.offsetTop <  window.innerHeight - divinfo.height) {
+        y = y + 10
+    }
+    if (left && div.offsetLeft > 0) {
+        x = x - 10
+    }
+    div.style.left = x + 'px'
+    div.style.top = y + 'px'
+
+    console.log(div.style.left);
+    console.log(div.style.top);
+    window.requestAnimationFrame(gameLoop)
+}
+window.requestAnimationFrame(gameLoop)
+
     let image_tracker = 'normal'
     function change(){
       let image = document.getElementById('win');

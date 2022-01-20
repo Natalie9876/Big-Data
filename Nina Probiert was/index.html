@@ -1,15 +1,79 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
 
-  <head>
-    <meta charset="utf-8">
-    <title>BigData</title>
-    <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="">
-  </head>
+        <title>HTML5 Game</title>
+        <meta name="description" content="A basic HTML5 game">
+        <meta name="author" content="[Your name]">
+    </head>
+    <body>
+
+      <canvas id="canvas" width="750" height="400" style="border:1px solid lightgrey;">
+          Your browser does not support the HTML5 canvas tag.
+      </canvas>
+        <!--Your canvas will come here -->
+
+        <script>
+        "use strict";
+ let canvas;
+ let context;
+
+ window.onload = init;
+
+ function init(){
+     canvas = document.getElementById('canvas');
+     context = canvas.getContext('2d');
+
+     // Start the first frame request
+     window.requestAnimationFrame(gameLoop);
+ }
+
+ let rectX = 0;
+ let rectY = 0;
+
+ function gameLoop(timeStamp){
+   // Update game objects in the loop
+    update();
+     draw();
 
 
-<body>
+     // Keep requesting new frames
+     window.requestAnimationFrame(gameLoop);
+ }
 
-</body>
+function update(){
+    rectX += 0;
+    rectY += 1;
+}
+function draw() {
+    // Clear the entire canvas
+  //  context.clearRect(0, 0, canvas.width, canvas.height);
+
+    context.fillStyle = 'pink';
+    context.fillRect(rectX, rectY, 150, 100);
+}
+let secondsPassed = 0;
+let oldTimeStamp = 0;
+let movingSpeed = 50;
+
+function gameLoop(timeStamp) {
+    // Calculate how much time has passed
+    secondsPassed = (timeStamp - oldTimeStamp) / 1000;
+    oldTimeStamp = timeStamp;
+
+    // Pass the time to the update
+    update(secondsPassed);
+    draw();
+
+    window.requestAnimationFrame(gameLoop);
+}
+
+function update(secondsPassed) {
+    // Use time to calculate new position
+    rectX += (movingSpeed * secondsPassed);
+    rectY += (movingSpeed * secondsPassed);
+}
+        </script>
+    </body>
 </html>
