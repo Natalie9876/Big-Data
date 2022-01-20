@@ -415,3 +415,16 @@ p.Fenster{
 .sindDasNeueFont{
   font-size:100px;
 }
+
+.ÖlFont{
+  font-size:200px;
+  text-align: right;
+}
+
+.CookieAnfang{
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-left:410px;
+  margin-right: 240px;
+}
