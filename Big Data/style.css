@@ -101,7 +101,8 @@ overflow: hidden;
   padding: 0;
   background-image: url('assets/Bilder/BoardSmall.png');
   position: center;
-  height: 550px;
+  padding-top: 50px;
+  height: 1200px;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
@@ -151,6 +152,7 @@ h3{
 }
 
 
+
 .krake{
   width:1235px;
   height:1235px;
@@ -193,22 +195,24 @@ p{
 }
 
 
-p1{
+p.Poptext{
   font-family: ocr-b-std, monospace;
+  position: absolute;
   color: black;
-  text-align: justify;
+  text-align: left;
+  padding-top: 120px;
   padding-left: 170px;
   font-size: 25px;
   line-height: 25pt;
 
+
 }
-p2{
+p.PopYel{
   font-family:  ocr-b-std, monospace;
   color:#FFFF00;
-  text-align: center;
   font-size: 30px;
   font-style: regular;
-  line-height: 30pt;
+
 }
 p.Beginning{
  font-family: ocr-b-std, monospace;
@@ -222,8 +226,16 @@ p.eskalation{
   font-size: 40px;
 }
 
-p.Computer{
+.Computer{
+  position: relative;
+  width:1571px;
+  height: 2109px;
+}
+
+p.comp{
+  position: absolute;
   font-family: ocr-b-std, monospace;
+
   font-style: normal;
   font-weight: 400;
   color: #30CA9F;
@@ -238,7 +250,7 @@ p.Fenster{
   font-size: 37px;
   position: absolute;
   left: 70px;
-  padding-top: 10px;
+  padding-top: 40px;
 
 }
 
@@ -270,15 +282,12 @@ p.Fenster{
 
 .window{
   padding-left: 50px;
+  padding-top: 30px;
   width:1183px;
   height:392px;
 
 }
 
-.Computer{
-  width:1571px;
-  height: 2109px;
-}
 
 .Stichpunkt{
   color: #F9EB05;
@@ -301,6 +310,7 @@ p.Fenster{
 }
 
 .target{
+  position: absolute;
   line-height: 50pt;
 }
 
@@ -418,7 +428,7 @@ p.Fenster{
 
 
 
-.BoardFont{
+p.BoardFont{
   font-family: Dm sans;
   color: white;
   font-size: 30px;
@@ -445,7 +455,7 @@ p.Fenster{
   justify-content: space-evenly;
 }
 
-.BoardFont2{
+p.BoardFont2{
   font-family: Dm sans;
   color: white;
   font-size: 30px;
@@ -455,6 +465,18 @@ p.Fenster{
   font-weight:lighter;
   padding-left:60px;
   padding-right:25px;
+}
+
+p.BoardFont3{
+  font-family: Dm sans;
+  color: white;
+  font-size: 30px;
+  font-style: regular;
+  line-height: 30pt;
+  text-align:left;
+  font-weight:lighter;
+  padding-left:120px;
+
 }
 
 .DatenFont{
